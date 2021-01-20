@@ -23,18 +23,18 @@ export default function Footer() {
           </ul>
         </nav>
         <div class="social">
-          <a href="#">
+          <Link href="#">
             <i class="fab fa-github fa-2x"></i>
-          </a>
-          <a href="#">
+          </Link>
+          <Link href="#">
             <i class="fab fa-facebook fa-2x"></i>
-          </a>
-          <a href="#">
+          </Link>
+          <Link href="#">
             <i class="fab fa-instagram fa-2x"></i>
-          </a>
-          <a href="#">
+          </Link>
+          <Link href="#">
             <i class="fab fa-twitter fa-2x"></i>
-          </a>
+          </Link>
         </div>
       </div>
     </footer>

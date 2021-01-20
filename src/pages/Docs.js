@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Layout from '../layouts/Layout';
 
 export default function Docs() {
@@ -21,15 +22,15 @@ export default function Docs() {
               <nav>
                 <ul>
                   <li>
-                    <a class="text-primary" href="#">
+                    <Link class="text-primary" href="#">
                       Introduction
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">About Loruki</a>
+                    <Link href="#">About Loruki</Link>
                   </li>
                   <li>
-                    <a href="#">Installation</a>
+                    <Link href="#">Installation</Link>
                   </li>
                 </ul>
               </nav>
@@ -38,16 +39,16 @@ export default function Docs() {
               <nav>
                 <ul>
                   <li>
-                    <a href="#">Setting up a container</a>
+                    <Link href="#">Setting up a container</Link>
                   </li>
                   <li>
-                    <a href="#">Using the CLI</a>
+                    <Link href="#">Using the CLI</Link>
                   </li>
                   <li>
-                    <a href="#">Managing resources</a>
+                    <Link href="#">Managing resources</Link>
                   </li>
                   <li>
-                    <a href="#">Upgrade & downgrade</a>
+                    <Link href="#">Upgrade & downgrade</Link>
                   </li>
                 </ul>
               </nav>
@@ -72,9 +73,9 @@ export default function Docs() {
                 totam magni eius vitae velit id, atque veritatis! At, vero
                 porro.
               </p>
-              <a href="#" class="btn btn-primary">
+              <Link href="#" class="btn btn-primary">
                 Install CLI
-              </a>
+              </Link>
 
               <h3>Requirements</h3>
               <ul>
